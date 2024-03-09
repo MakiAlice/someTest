@@ -1,0 +1,121 @@
+﻿  hrd.cpp
+  main.cpp
+G:\VS\VC\Auxiliary\VS\include\graphics.h(1,1): warning C4828: 文件包含在偏移 0x19d3 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+G:\paper\Project1\Project1\main.cpp(46,69): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(46,69): message : 尝试匹配参数列表“(IMAGE *, const char *, int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(48,68): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(48,68): message : 尝试匹配参数列表“(IMAGE *, const char *, int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(66,69): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(66,69): message : 尝试匹配参数列表“(IMAGE *, const char *, int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(68,68): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(68,68): message : 尝试匹配参数列表“(IMAGE *, const char *, int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(93,55): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(93,55): message : 尝试匹配参数列表“(IMAGE *, const char [16], int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(95,54): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(95,54): message : 尝试匹配参数列表“(IMAGE *, const char [15], int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(97,53): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(97,53): message : 尝试匹配参数列表“(IMAGE *, const char [14], int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(104,68): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(104,68): message : 尝试匹配参数列表“(IMAGE *, const char [13], double, double, bool)”时
+G:\paper\Project1\Project1\main.cpp(106,53): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(106,53): message : 尝试匹配参数列表“(IMAGE *, const char [14], int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(108,53): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(108,53): message : 尝试匹配参数列表“(IMAGE *, const char [14], int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(110,53): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(110,53): message : 尝试匹配参数列表“(IMAGE *, const char [14], int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(112,53): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(112,53): message : 尝试匹配参数列表“(IMAGE *, const char [14], int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(114,53): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(114,53): message : 尝试匹配参数列表“(IMAGE *, const char [14], int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(121,52): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(121,52): message : 尝试匹配参数列表“(IMAGE *, const char [14], int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(144,52): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(144,52): message : 尝试匹配参数列表“(IMAGE *, const char [14], int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(151,52): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\main.cpp(151,52): message : 尝试匹配参数列表“(IMAGE *, const char [14], int, int, bool)”时
+G:\paper\Project1\Project1\main.cpp(183,69): error C2664: “BOOL PlaySoundW(LPCWSTR,HMODULE,DWORD)”: 无法将参数 1 从“const char [19]”转换为“LPCWSTR”
+G:\paper\Project1\Project1\main.cpp(183,15): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\Windows Kits\10\Include\10.0.19041.0\um\playsoundapi.h(114,1): message : 参见“PlaySoundW”的声明
+G:\paper\Project1\Project1\main.cpp(184,64): error C2664: “BOOL PlaySoundW(LPCWSTR,HMODULE,DWORD)”: 无法将参数 1 从“const char [19]”转换为“LPCWSTR”
+G:\paper\Project1\Project1\main.cpp(184,26): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\Windows Kits\10\Include\10.0.19041.0\um\playsoundapi.h(114,1): message : 参见“PlaySoundW”的声明
+G:\paper\Project1\Project1\main.cpp(187,73): error C2664: “BOOL PlaySoundW(LPCWSTR,HMODULE,DWORD)”: 无法将参数 1 从“const char [19]”转换为“LPCWSTR”
+G:\paper\Project1\Project1\main.cpp(187,19): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\Windows Kits\10\Include\10.0.19041.0\um\playsoundapi.h(114,1): message : 参见“PlaySoundW”的声明
+G:\paper\Project1\Project1\main.cpp(299,32): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(224,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(223,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+G:\paper\Project1\Project1\main.cpp(299,32): message : 尝试匹配参数列表“(int, int, char [10])”时
+G:\paper\Project1\Project1\main.cpp(312,33): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(224,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(223,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+G:\paper\Project1\Project1\main.cpp(312,33): message : 尝试匹配参数列表“(int, int, char [10])”时
+G:\paper\Project1\Project1\main.cpp(316,32): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(224,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(223,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+G:\paper\Project1\Project1\main.cpp(316,32): message : 尝试匹配参数列表“(int, int, char [10])”时
+G:\paper\Project1\Project1\main.cpp(202,14): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\paper\Project1\Project1\main.cpp(205,14): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\paper\Project1\Project1\main.cpp(207,14): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\paper\Project1\Project1\main.cpp(211,9): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\paper\Project1\Project1\main.cpp(216,9): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\paper\Project1\Project1\main.cpp(298,13): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\paper\Project1\Project1\main.cpp(311,13): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\paper\Project1\Project1\main.cpp(315,13): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+G:\paper\Project1\Project1\main.cpp(326,10): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  phb.cpp
+G:\VS\VC\Auxiliary\VS\include\graphics.h(1,1): warning C4828: 文件包含在偏移 0x19d3 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+G:\paper\Project1\Project1\phb.cpp(31,19): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+G:\paper\Project1\Project1\phb.cpp(69,22): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  sc.cpp
+G:\VS\VC\Auxiliary\VS\include\graphics.h(1,1): warning C4828: 文件包含在偏移 0x19d3 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+G:\paper\Project1\Project1\sc.cpp(23,32): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+G:\paper\Project1\Project1\sc.cpp(23,20): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+G:\paper\Project1\Project1\sc.cpp(24,67): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\sc.cpp(24,67): message : 尝试匹配参数列表“(IMAGE *, const char [13], double, double, bool)”时
+G:\paper\Project1\Project1\sc.cpp(48,65): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\sc.cpp(48,65): message : 尝试匹配参数列表“(IMAGE *, const char *, int, int, bool)”时
+G:\paper\Project1\Project1\sc.cpp(60,65): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\sc.cpp(60,65): message : 尝试匹配参数列表“(IMAGE *, const char *, int, int, bool)”时
+G:\paper\Project1\Project1\sc.cpp(83,58): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+G:\VS\VC\Auxiliary\VS\include\easyx.h(257,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+G:\VS\VC\Auxiliary\VS\include\easyx.h(256,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+G:\paper\Project1\Project1\sc.cpp(83,58): message : 尝试匹配参数列表“(IMAGE *, const char [14], int, int, bool)”时

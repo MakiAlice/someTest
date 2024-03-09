@@ -8,6 +8,7 @@
 #include <fstream> 
 #include<thread>//多线程
 #include<mmsystem.h>
+#include<conio.h>
 #pragma comment(lib,"winmm.lib")//导入winmm windows multy media库
 
 using namespace std;
@@ -20,11 +21,11 @@ void yidong(hrd* h, sc* s, MOUSEMSG msg)
     IMAGE img1; IMAGE img2; 
     int A[1] = { 0 };
     const char* p[49] =
-    { "\\paper\\sz0.jpg","\\paper\\sz1.jpg","\\paper\\sz2.jpg","\\paper\\sz3.jpg","\\paper\\sz4.jpg","\\paper\\sz5.jpg","\\paper\\sz6.jpg","\\paper\\sz7.jpg","\\paper\\sz8.jpg","\\paper\\sz9.jpg",
-      "\\paper\\sz10.jpg","\\paper\\sz11.jpg","\\paper\\sz12.jpg","\\paper\\sz13.jpg","\\paper\\sz14.jpg","\\paper\\sz15.jpg","\\paper\\sz16.jpg","\\paper\\sz17.jpg","\\paper\\sz18.jpg","\\paper\\sz19.jpg",
-      "\\paper\\sz20.jpg","\\paper\\sz21.jpg","\\paper\\sz22.jpg","\\paper\\sz23.jpg","\\paper\\sz24.jpg","\\paper\\sz25.jpg","\\paper\\sz26.jpg","\\paper\\sz27.jpg","\\paper\\sz28.jpg","\\paper\\sz29.jpg",
-      "\\paper\\sz30.jpg","\\paper\\sz31.jpg","\\paper\\sz32.jpg","\\paper\\sz33.jpg","\\paper\\sz34.jpg","\\paper\\sz35.jpg","\\paper\\sz36.jpg","\\paper\\sz37.jpg","\\paper\\sz38.jpg","\\paper\\sz39.jpg",
-      "\\paper\\sz40.jpg","\\paper\\sz41.jpg","\\paper\\sz42.jpg","\\paper\\sz43.jpg","\\paper\\sz44.jpg","\\paper\\sz45.jpg","\\paper\\sz46.jpg","\\paper\\sz47.jpg","\\paper\\sz48.jpg" };//VS换行自动加空格 导致绝对路径不准确
+    { "/someTest/Digital_HuaRongRoad/sz0.jpg","/someTest/Digital_HuaRongRoad/sz1.jpg","/someTest/Digital_HuaRongRoad/sz2.jpg","/someTest/Digital_HuaRongRoad/sz3.jpg","/someTest/Digital_HuaRongRoad/sz4.jpg","/someTest/Digital_HuaRongRoad/sz5.jpg","/someTest/Digital_HuaRongRoad/sz6.jpg","/someTest/Digital_HuaRongRoad/sz7.jpg","/someTest/Digital_HuaRongRoad/sz8.jpg","/someTest/Digital_HuaRongRoad/sz9.jpg",
+      "/someTest/Digital_HuaRongRoad/sz10.jpg","/someTest/Digital_HuaRongRoad/sz11.jpg","/someTest/Digital_HuaRongRoad/sz12.jpg","/someTest/Digital_HuaRongRoad/sz13.jpg","/someTest/Digital_HuaRongRoad/sz14.jpg","/someTest/Digital_HuaRongRoad/sz15.jpg","/someTest/Digital_HuaRongRoad/sz16.jpg","/someTest/Digital_HuaRongRoad/sz17.jpg","/someTest/Digital_HuaRongRoad/sz18.jpg","/someTest/Digital_HuaRongRoad/sz19.jpg",
+      "/someTest/Digital_HuaRongRoad/sz20.jpg","/someTest/Digital_HuaRongRoad/sz21.jpg","/someTest/Digital_HuaRongRoad/sz22.jpg","/someTest/Digital_HuaRongRoad/sz23.jpg","/someTest/Digital_HuaRongRoad/sz24.jpg","/someTest/Digital_HuaRongRoad/sz25.jpg","/someTest/Digital_HuaRongRoad/sz26.jpg","/someTest/Digital_HuaRongRoad/sz27.jpg","/someTest/Digital_HuaRongRoad/sz28.jpg","/someTest/Digital_HuaRongRoad/sz29.jpg",
+      "/someTest/Digital_HuaRongRoad/sz30.jpg","/someTest/Digital_HuaRongRoad/sz31.jpg","/someTest/Digital_HuaRongRoad/sz32.jpg","/someTest/Digital_HuaRongRoad/sz33.jpg","/someTest/Digital_HuaRongRoad/sz34.jpg","/someTest/Digital_HuaRongRoad/sz35.jpg","/someTest/Digital_HuaRongRoad/sz36.jpg","/someTest/Digital_HuaRongRoad/sz37.jpg","/someTest/Digital_HuaRongRoad/sz38.jpg","/someTest/Digital_HuaRongRoad/sz39.jpg",
+      "/someTest/Digital_HuaRongRoad/sz40.jpg","/someTest/Digital_HuaRongRoad/sz41.jpg","/someTest/Digital_HuaRongRoad/sz42.jpg","/someTest/Digital_HuaRongRoad/sz43.jpg","/someTest/Digital_HuaRongRoad/sz44.jpg","/someTest/Digital_HuaRongRoad/sz45.jpg","/someTest/Digital_HuaRongRoad/sz46.jpg","/someTest/Digital_HuaRongRoad/sz47.jpg","/someTest/Digital_HuaRongRoad/sz48.jpg" };//VS换行自动加空格 导致绝对路径不准确
     int x = msg.x - offx;
     int y = msg.y - offy;
     int j = int(floor(x * n / 600));//floor函数 向下取整
@@ -90,35 +91,35 @@ void yidong(hrd* h, sc* s, MOUSEMSG msg)
 void shengcheng()
 {
     IMAGE img1, img2, img3;
-    loadimage(&img1, "/paper/xdks.jpg", 200, 100, true);
+    loadimage(&img1, "/someTest/Digital_HuaRongRoad/xdks.jpg", 200, 100, true);
     putimage(200, 200, &img1);
-    loadimage(&img2, "/paper/phb.jpg", 200, 100, true);
+    loadimage(&img2, "/someTest/Digital_HuaRongRoad/phb.jpg", 200, 100, true);
     putimage(200, 400, &img2);
-    loadimage(&img3, "/paper/tc.jpg", 200, 100, true);
+    loadimage(&img3, "/someTest/Digital_HuaRongRoad/tc.jpg", 200, 100, true);
     putimage(200, 600, &img3);
 }
 
 void xdks()
 {
     IMAGE img1, img2, img3,img4,img5;
-    loadimage(&img1, "\\paper\\2.jpg", 1276 * 0.5, 1920 * 0.5, true);
+    loadimage(&img1, "/someTest/Digital_HuaRongRoad/2.jpg", 1276 * 0.5, 1920 * 0.5, true);
     putimage(0, 0, &img1);
-    loadimage(&img1, "/paper/n3.jpg", 150, 100, true);
+    loadimage(&img1, "/someTest/Digital_HuaRongRoad/n3.jpg", 150, 100, true);
     putimage(240, 100, &img1);
-    loadimage(&img2, "/paper/n4.jpg", 150, 100, true);
+    loadimage(&img2, "/someTest/Digital_HuaRongRoad/n4.jpg", 150, 100, true);
     putimage(240, 250, &img2);
-    loadimage(&img3, "/paper/n5.jpg", 150, 100, true);
+    loadimage(&img3, "/someTest/Digital_HuaRongRoad/n5.jpg", 150, 100, true);
     putimage(240, 400, &img3);
-    loadimage(&img4, "/paper/n6.jpg", 150, 100, true);
+    loadimage(&img4, "/someTest/Digital_HuaRongRoad/n6.jpg", 150, 100, true);
     putimage(240, 550, &img4);
-    loadimage(&img5, "/paper/n7.jpg", 150, 100, true);
+    loadimage(&img5, "/someTest/Digital_HuaRongRoad/n7.jpg", 150, 100, true);
     putimage(240, 700, &img5);
 }
 
 bool chongwan(MOUSEMSG msg)
 {
     IMAGE img;
-    loadimage(&img, "/paper/cw.jpg", 150, 100, true);
+    loadimage(&img, "/someTest/Digital_HuaRongRoad/cw.jpg", 150, 100, true);
     putimage(19, 800, &img);
     int x = msg.x; int y = msg.y;
     if (19 < x && x < 169 && 800 < y && y<900)
@@ -141,14 +142,14 @@ bool fanhui(MOUSEMSG msg)
 void fanhui()
 {
     IMAGE img;
-    loadimage(&img, "/paper/fh.jpg", 150, 100, true);
+    loadimage(&img, "/someTest/Digital_HuaRongRoad/fh.jpg", 150, 100, true);
     putimage(300, 800, &img);
 }
 
 void fanhui1()
 {
     IMAGE img;
-    loadimage(&img, "/paper/fh.jpg", 150, 100, true);
+    loadimage(&img, "/someTest/Digital_HuaRongRoad/fh.jpg", 150, 100, true);
     putimage(240, 850, &img);
 }
 
@@ -180,11 +181,11 @@ int ndianji(MOUSEMSG msg)
 
 void music()
 {
-    PlaySound("\\paper\\TOALICE.wav", NULL, SND_FILENAME | SND_ASYNC);
-    bool sou = PlaySound("\\paper\\TOALICE.wav", NULL, SND_SYNC);// 同步播放声音，在播放完后PlaySound函数才返回。
+    PlaySound("/someTest/Digital_HuaRongRoad/TOALICE.wav", NULL, SND_FILENAME | SND_ASYNC);
+    bool sou = PlaySound("/someTest/Digital_HuaRongRoad/TOALICE.wav", NULL, SND_SYNC);// 同步播放声音，在播放完后PlaySound函数才返回。
     while (sou == true)
     {
-        PlaySound("\\paper\\TOALICE.wav", NULL, SND_FILENAME | SND_ASYNC);
+        PlaySound("/someTest/Digital_HuaRongRoad/TOALICE.wav", NULL, SND_FILENAME | SND_ASYNC);
     }
 }
 
@@ -199,14 +200,12 @@ int main()
     hrd* a = &h;
     sc* b = &s;
     int t; int n;
-    FILE *fp=fopen("\\paper\\Project1\\Project1\\phb.txt", "r");
-    if (fp == NULL)
+    FILE *fp=fopen("/someTest/Digital_HuaRongRoad/Project1/Project1/phb.txt", "r");
+    if (fp == nullptr)
     {
-        fp = fopen("\\paper\\Project1\\Project1\\phb.txt", "a+");
-        ::fclose(fp);
-        fp = fopen("\\paper\\Project1\\Project1\\phb.txt", "r");
+        fp = fopen("/someTest/Digital_HuaRongRoad/Project1/Project1/phb.txt", "a+");
     }
-    while (!feof(fp))//fp没有读到eof
+    while (fp!=nullptr && !feof(fp))//fp没有读到eof
     {   
         int end = fscanf(fp, "%d %s %d %d", &p.nn, e, &i, &j);//读取文件时，feof遇到文件结束为EOF的时候，返回的是0，到下一个字符的时
         if (end == -1) break;                                 //候，才会返回1，这时候while循环才退出,所以只用while循环就会出现重复的现象
@@ -216,7 +215,7 @@ int main()
             i0++;
         fscanf(fp, "/n");
     }
-    ::fclose(fp);
+    if(fp!=nullptr)fclose(fp);
     label0:s.beijing();
     t = 0;
     shengcheng();
@@ -324,7 +323,7 @@ label1:n = 0;
     ::cin >> ID;
     ::printf("存储中，请勿关闭。");
     p.ph(h.n,ID, tt, s.step);
-    fp = fopen("\\paper\\Project1\\Project1\\phb.txt", "w+");
+    fp = fopen("/someTest/Digital_HuaRongRoad/Project1/Project1/phb.txt", "w+");
     for(int i1 = 0;i1 < 5;i1++)
     {
        for (int j1 = 0; j1 < 10; j1++)

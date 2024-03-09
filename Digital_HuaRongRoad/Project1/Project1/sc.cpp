@@ -21,7 +21,7 @@ void sc::beijing()
 {
     IMAGE img;
     initgraph(1277 * 0.5, 1920 * 0.5);
-    loadimage(&img, "\\paper\\2.jpg", 1276 * 0.5, 1920 * 0.5, true);//true表示等比例缩小 bool bResize = false   是否调整 IMAGE 的大小以适应图片
+    loadimage(&img, "/someTest/Digital_HuaRongRoad/2.jpg", 1276 * 0.5, 1920 * 0.5, true);//true表示等比例缩小 bool bResize = false   是否调整 IMAGE 的大小以适应图片
     putimage(0, 0, &img);
 }
 
@@ -33,11 +33,11 @@ void sc::shuchu(hrd h)
     IMAGE im;
     int x, y;
     const char* p[49] =
-    { "\\paper\\sz0.jpg","\\paper\\sz1.jpg","\\paper\\sz2.jpg","\\paper\\sz3.jpg","\\paper\\sz4.jpg","\\paper\\sz5.jpg","\\paper\\sz6.jpg","\\paper\\sz7.jpg","\\paper\\sz8.jpg","\\paper\\sz9.jpg",
-      "\\paper\\sz10.jpg","\\paper\\sz11.jpg","\\paper\\sz12.jpg","\\paper\\sz13.jpg","\\paper\\sz14.jpg","\\paper\\sz15.jpg","\\paper\\sz16.jpg","\\paper\\sz17.jpg","\\paper\\sz18.jpg","\\paper\\sz19.jpg",
-      "\\paper\\sz20.jpg","\\paper\\sz21.jpg","\\paper\\sz22.jpg","\\paper\\sz23.jpg","\\paper\\sz24.jpg","\\paper\\sz25.jpg","\\paper\\sz26.jpg","\\paper\\sz27.jpg","\\paper\\sz28.jpg","\\paper\\sz29.jpg",
-      "\\paper\\sz30.jpg","\\paper\\sz31.jpg","\\paper\\sz32.jpg","\\paper\\sz33.jpg","\\paper\\sz34.jpg","\\paper\\sz35.jpg","\\paper\\sz36.jpg","\\paper\\sz37.jpg","\\paper\\sz38.jpg","\\paper\\sz39.jpg",
-      "\\paper\\sz40.jpg","\\paper\\sz41.jpg","\\paper\\sz42.jpg","\\paper\\sz43.jpg","\\paper\\sz44.jpg","\\paper\\sz45.jpg","\\paper\\sz46.jpg","\\paper\\sz47.jpg","\\paper\\sz48.jpg"};//在VS2019以后的版本 对于直接利用char * 类型声明变量时会产生““const char*”类型的值不能用于初始化“char”类型的实体”
+    { "/someTest/Digital_HuaRongRoad/sz0.jpg","/someTest/Digital_HuaRongRoad/sz1.jpg","/someTest/Digital_HuaRongRoad/sz2.jpg","/someTest/Digital_HuaRongRoad/sz3.jpg","/someTest/Digital_HuaRongRoad/sz4.jpg","/someTest/Digital_HuaRongRoad/sz5.jpg","/someTest/Digital_HuaRongRoad/sz6.jpg","/someTest/Digital_HuaRongRoad/sz7.jpg","/someTest/Digital_HuaRongRoad/sz8.jpg","/someTest/Digital_HuaRongRoad/sz9.jpg",
+      "/someTest/Digital_HuaRongRoad/sz10.jpg","/someTest/Digital_HuaRongRoad/sz11.jpg","/someTest/Digital_HuaRongRoad/sz12.jpg","/someTest/Digital_HuaRongRoad/sz13.jpg","/someTest/Digital_HuaRongRoad/sz14.jpg","/someTest/Digital_HuaRongRoad/sz15.jpg","/someTest/Digital_HuaRongRoad/sz16.jpg","/someTest/Digital_HuaRongRoad/sz17.jpg","/someTest/Digital_HuaRongRoad/sz18.jpg","/someTest/Digital_HuaRongRoad/sz19.jpg",
+      "/someTest/Digital_HuaRongRoad/sz20.jpg","/someTest/Digital_HuaRongRoad/sz21.jpg","/someTest/Digital_HuaRongRoad/sz22.jpg","/someTest/Digital_HuaRongRoad/sz23.jpg","/someTest/Digital_HuaRongRoad/sz24.jpg","/someTest/Digital_HuaRongRoad/sz25.jpg","/someTest/Digital_HuaRongRoad/sz26.jpg","/someTest/Digital_HuaRongRoad/sz27.jpg","/someTest/Digital_HuaRongRoad/sz28.jpg","/someTest/Digital_HuaRongRoad/sz29.jpg",
+      "/someTest/Digital_HuaRongRoad/sz30.jpg","/someTest/Digital_HuaRongRoad/sz31.jpg","/someTest/Digital_HuaRongRoad/sz32.jpg","/someTest/Digital_HuaRongRoad/sz33.jpg","/someTest/Digital_HuaRongRoad/sz34.jpg","/someTest/Digital_HuaRongRoad/sz35.jpg","/someTest/Digital_HuaRongRoad/sz36.jpg","/someTest/Digital_HuaRongRoad/sz37.jpg","/someTest/Digital_HuaRongRoad/sz38.jpg","/someTest/Digital_HuaRongRoad/sz39.jpg",
+      "/someTest/Digital_HuaRongRoad/sz40.jpg","/someTest/Digital_HuaRongRoad/sz41.jpg","/someTest/Digital_HuaRongRoad/sz42.jpg","/someTest/Digital_HuaRongRoad/sz43.jpg","/someTest/Digital_HuaRongRoad/sz44.jpg","/someTest/Digital_HuaRongRoad/sz45.jpg","/someTest/Digital_HuaRongRoad/sz46.jpg","/someTest/Digital_HuaRongRoad/sz47.jpg","/someTest/Digital_HuaRongRoad/sz48.jpg"};//在VS2019以后的版本 对于直接利用char * 类型声明变量时会产生““const char*”类型的值不能用于初始化“char”类型的实体”
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
@@ -80,7 +80,7 @@ bool sc::jiance(hrd h)
     }
     if (flag == true)
     {
-        loadimage(&img, "\\paper\\tg.jpg", 400, 200, true);
+        loadimage(&img, "/someTest/Digital_HuaRongRoad/tg.jpg", 400, 200, true);
         putimage(100, 330, &img);
         return true;
     }

@@ -301,10 +301,12 @@ label1:n = 0;
         case WM_LBUTTONDOWN:
             if (chongwan(msg) == true)
             {
+                s.step = 0;
                 goto label;
             } 
             if (fanhui(msg) == true)
         {
+                s.step = 0;
             goto label1;
         }
             yidong(a,b,msg);
